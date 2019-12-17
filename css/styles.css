@@ -12,14 +12,15 @@ body, html{
     width: 100%;
     height: 60px;
     display: flex;
-    justify-content: space-between; /* Posiciona menu à direita e botões à esquerda*/
-    background-color: #D97E4A;
+    justify-content: center;
+        background-color: #D97E4A;
     box-shadow: 2px 0 3px gray;
 }
 
 .container {
-    width: 960px;
+    width: 1000px;
     display: flex;
+    justify-content: space-between; /* Posiciona menu à direita e botões à esquerda*/
     
 }
 
@@ -27,6 +28,7 @@ body, html{
 .navbar .cadastro_login ul {
     display: flex;
     position: relative;
+    padding: 0;
 }
 
 .navbar li {
@@ -34,7 +36,7 @@ body, html{
 }
 
 .navbar .navbar_item ul li{
-    padding: 0 60px;
+    padding: 0 30px 0 0;
 }
 
 .navbar .cadastro_login ul li{
