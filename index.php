@@ -1,36 +1,27 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy|Merienda+One|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 
-    <title>localidaDog</title>
+    <title>LocalizaDog</title>
 </head>
 
 <body>
-    <div class="pimg1">
 
-        <div class="navbar">
-            <div class="navbar_item">
-                <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#about">Perdido</a></li>
-                    <li> <a href="#services">Achado</a></li>
-                    <li> <a href="#ourteam">Adote</a></li>
+<!-- nav -->
+<?php
+    require_once("./includes/nav.php");
+?>
 
-                </ul>
-            </div>
-        </div>
 
-        <div class="ptext">
-            <span class="border">
-                localidaDog
-            </span>
-        </div>
+<div class="pimg1">
     </div>
 
     <section class="section section-light">
@@ -160,11 +151,15 @@
             velit quod eligendi. Reiciendis doloremque cumque tempore ratione eius corporis magnam neque.
         </p>
     </section>
+    
+</div>
+    
+<!-- Footer -->
+    <?php
+        require_once("./includes/footer.php");
+    ?>
 
-    <footer>
-        localizaDog @ 2019
-    </footer>
-
+ 
 </body>
 
 </html>
