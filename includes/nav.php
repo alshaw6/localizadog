@@ -1,5 +1,5 @@
-<div class="navbar">
-    <div class="container">
+<div id="navbar">
+    <div class="container_topo">
         <div class="navbar_item">
             <ul>
                 <li> <a href="index.php">Home</a></li>

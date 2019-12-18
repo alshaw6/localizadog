@@ -13,17 +13,20 @@
 
 <body>
 
-<!-- nav -->
-<?php
-    require_once("./includes/nav.php");
-?>
+<header>
+    <!-- nav -->
+    <?php
+        require_once("./includes/nav.php");
+    ?>
+</header>
 
 
 <!-- Footer -->
+<footer>
     <?php
         require_once("./includes/footer.php");
     ?>
-
+</footer>
  
 </body>
 

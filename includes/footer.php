@@ -1,3 +1,3 @@
-   <footer>
-        localizaDog @ 2019
-    </footer>
+
+localizaDog @ 2019
+
